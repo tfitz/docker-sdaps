@@ -20,15 +20,15 @@ Simply allow the docker user to communicate with your X session
 xhost +local:docker
 ```
 
-1. Set the `sdaps.sh` command in a place on your path.
+1. Set the `run_sdaps.sh` command in a place on your path.
 
-2. 
+2. Call `run_sdaps.sh PROJECT_NAME OPTIONS` as you would regularly in SDAPS.  See the documentation [tutorial](http://sdaps.org/Documentation/Tutorial) for the options.  
 
 
 Changelog
 ---------
 ```
-v0.0
-* Testing on Ubuntu 15.04
+v0.0.1
+* Basics work on Ubuntu 15.10
 ```
 

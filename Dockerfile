@@ -12,7 +12,7 @@ RUN apt-get update && apt-get install -y \
     sdaps 
 
 
-WORKDIR "/sdaps"
+WORKDIR "/workdir"
 
 ENTRYPOINT ["sdaps"]
 
